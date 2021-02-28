@@ -34,7 +34,7 @@ public class Program {
 			checkIn = sdf.parse(sc.next());
 			System.out.print("Chek-out date (dd/MM/yyyy): ");
 			checkOut = sdf.parse(sc.next());
-			
+			//Comentário
 			Date now = new Date();
 			
 			if(checkIn.before(now) || checkOut.before(now)) {

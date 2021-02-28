@@ -13,7 +13,7 @@ public class Reservation {
 	/*
 	 O static está sendo usado para que não seja instanciado
 	 um novo SimpleDateFormat para cada objeto Reservation
-	 que a aplicação possuir.
+	 que a aplicação possuir. ...
 	 */
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
